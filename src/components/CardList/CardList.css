@@ -1,0 +1,88 @@
+.card-container {
+    padding: 0;
+    margin: 0px 100px;
+    display: grid;
+    grid-template-columns: repeat( 4, 326.5px );
+    gap: 10px 10px;
+    justify-content: flex-start;
+}
+
+.card-container li {
+    list-style: none;
+    border: 3px dashed white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 250px;
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-button {
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.card-item {
+    background-color: #18191C;
+}
+
+.card-item h2 {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.card-item p {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.card-info {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.search {
+    width: 60%;
+    margin: 40px;
+    padding: 5px;
+    background-color: #202225;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.search-button {
+    margin: 0;
+    font-size: 12px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+} 
+
+.header {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0px;
+}
