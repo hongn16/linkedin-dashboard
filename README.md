@@ -1,4 +1,4 @@
-### ![Live Site]
+### [!Live Site](https://linkedin-dashboard.netlify.app/)
 
 ## Available Scripts
 
